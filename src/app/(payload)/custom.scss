@@ -1,0 +1,15 @@
+// Hide the "+" add buttons on collection cards in the dashboard
+// The card itself is clickable and navigates to the collection
+.dashboard__card-actions,
+.collection-card__actions,
+[class*="card__actions"],
+[class*="Card__actions"] {
+  display: none !important;
+}
+
+// Also hide any standalone create buttons on cards if they exist
+.card-button--create,
+.create-button,
+[class*="create-button"] {
+  display: none !important;
+}
